@@ -58,4 +58,7 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n ku
 ```
 
 check drivers are running
+```
+kubectl get pods -n kube-system
+```
 
